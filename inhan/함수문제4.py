@@ -6,6 +6,7 @@ def search_visitor():
     global b
     line=f.read()
     f.close()
+    c = 123;
     a = input("이름을 입력하세요: ")
     if a in line:
         print("%s님 다시 방문해 주셔서 감사합니다. 즐거운 시간되세요." % a)
