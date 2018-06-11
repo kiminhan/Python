@@ -24,3 +24,4 @@ print("2-gram:", r2, word2)
 # 3-gram
 r3, word3  = diff_ngram(a, b, 3)
 print("3-gram:", r3, word3)
+print("pass")
