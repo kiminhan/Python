@@ -1,8 +1,8 @@
 import tkinter as tk
 
-from opencv.ImageFrame import ImageFrame
-from opencv.VideoFrame import VideoFrame
-from opencv.CameraFrame import CameraFrame
+from Python.AI.MyEx01.opencv.CameraFrame import CameraFrame
+from Python.AI.MyEx01.opencv.ImageFrame import ImageFrame
+from Python.AI.MyEx01.opencv.VideoFrame import VideoFrame
 
 
 class OpencvFrame(tk.Frame):
